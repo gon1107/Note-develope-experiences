@@ -5,12 +5,18 @@
 }
 - ((param1, param2) -> result);
 2. Utils는 오롯이 온전하여 전역에서 쓰는 클래스
+- Common
 - File
 - IO
 - String
 - Url
 3. Validator는 가변적이라 Utils가 아니다
 4. Controller - Service - (BO(비즈니스 필요 데이터)) - DTO(전체 데이터) - DAO
+- EntityController
+- EntityService
+- EntityForm
+- Entity
+- EntityRepository
 5. interface를 쓰는 이유는 구조의 일관성을 위해서이며 interface명과 함수의 네이밍은 공통적이면서 가장 추상적으로 지은 뒤 실제 사용할 클래스의 이름으로 실현한다.
 -> 초기에 함수를 충분히 추상적으로 지으면 인터페이스 필요없음
 6. 상속은 문제가 있으며 해결방안은 합성, 인터페이스, 위임이다.
