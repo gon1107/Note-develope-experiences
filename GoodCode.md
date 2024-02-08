@@ -1,4 +1,6 @@
 
+좋은 코드를 작성하기 위해
+
 1. 람다식은 편하다.
 - new Function(param1, param2) {
     return result;
